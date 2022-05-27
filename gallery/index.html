@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="gallery">
+      <h2 class="title">Gallery</h2>
+      <div class="gallery-list">
+        <a href="img/IMG_4876.JPG" class="gallery-item">
+          <div class="gallery-item-hover">View</div>
+          <img src="img/IMG_4876.JPG" alt="alt" />
+        </a>
+        <a href="img/IMG_4879.JPG" class="gallery-item">
+          <div class="gallery-item-hover">View</div>
+          <img src="img/IMG_4879.JPG" alt="alt" />
+        </a>
+        <a href="img/IMG_4882.JPG" class="gallery-item">
+          <div class="gallery-item-hover">View</div>
+          <img src="img/IMG_4882.JPG" alt="alt" />
+        </a>
+        <a href="img/IMG_4893.JPG" class="gallery-item">
+          <div class="gallery-item-hover">View</div>
+          <img src="img/IMG_4893.JPG" alt="alt" />
+        </a>
+        <a href="img/IMG_4897.JPG" class="gallery-item">
+          <div class="gallery-item-hover">View</div>
+          <img src="img/IMG_4897.JPG" alt="alt" />
+        </a>
+        <a href="img/IMG_4905.JPG" class="gallery-item">
+          <div class="gallery-item-hover">View</div>
+          <img src="img/IMG_4905.JPG" alt="alt" />
+        </a>
+        <a href="img/IMG_4921.JPG" class="gallery-item">
+          <div class="gallery-item-hover">View</div>
+          <img src="img/IMG_4921.JPG" alt="alt" />
+        </a>
+        <a href="img/IMG_4925.JPG" class="gallery-item">
+          <div class="gallery-item-hover">View</div>
+          <img src="img/IMG_4925.JPG" alt="alt" />
+        </a>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script>
+      $(".gallery-list").magnificPopup({
+        delegate: "a",
+        type: "image",
+        gallery: {
+          enabled: true
+        }
+      });
+    </script>
+  </body>
+</html>
